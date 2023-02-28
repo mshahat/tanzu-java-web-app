@@ -1,3 +1,4 @@
+allow_k8s_contexts('gke_pa-mshahat_europe-west2_gke-tap-cluster-three')
 SOURCE_IMAGE = os.getenv("SOURCE_IMAGE", default='eu.gcr.io/pa-mshahat/tanzu-java-web-app-source')
 LOCAL_PATH = os.getenv("LOCAL_PATH", default='.')
 NAMESPACE = os.getenv("NAMESPACE", default='default')
